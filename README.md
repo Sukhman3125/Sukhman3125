@@ -179,22 +179,22 @@ Git • GitHub • VS Code • Visual Studio • Postman
 
 ## 📈 Contribution Graph
 
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Sukhman3125&theme=tokyo-night&hide_border=true&area=true&radius=8"
-    width="95%"
-  />
-</p>
-
----
-
-## 🐍 Contribution Snake
-
 <img
   src="https://raw.githubusercontent.com/Sukhman3125/Sukhman3125/output/activity-graph.svg"
   width="95%"
   alt="GitHub Activity Graph"
 />
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Sukhman3125/Sukhman3125/output/github-contribution-grid-snake-dark.svg"
+    alt="Contribution Snake"
+  />
+</p>
 
 ---
 
