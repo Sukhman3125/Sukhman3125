@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Contributions
 
 on:
   schedule:
@@ -20,7 +20,16 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v5
+      - name: Generate activity graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: Sukhman3125
+          options: theme=tokyo-night&hide_border=true&area=true&radius=8
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish contributions
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
