@@ -190,12 +190,11 @@ Git • GitHub • VS Code • Visual Studio • Postman
 
 ## 🐍 Contribution Snake
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/Sukhman3125/Sukhman3125/output/github-contribution-grid-snake-dark.svg"
-    alt="Contribution Snake"
-  />
-</p>
+<img
+  src="https://raw.githubusercontent.com/Sukhman3125/Sukhman3125/output/activity-graph.svg"
+  width="95%"
+  alt="GitHub Activity Graph"
+/>
 
 ---
 
