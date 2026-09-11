@@ -166,7 +166,7 @@ Git • GitHub • VS Code • Visual Studio • Postman
 * Solve complex algorithmic problems and optimize system performance
 
 ---
-
+<!--
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -174,8 +174,8 @@ Git • GitHub • VS Code • Visual Studio • Postman
     src="https://streak-stats.demolab.com?user=Sukhman3125&theme=tokyonight&hide_border=true"
   />
 </p>
-
 ---
+-->
 
 ## 📈 Contribution Graph
 
