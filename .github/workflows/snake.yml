@@ -17,7 +17,7 @@ jobs:
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: Sukhman3125
-          options: theme=tokyo-night&hide_border=true&area=true&radius=8
+          options: theme=tokyo-night&hide_border=true&area=true&radius=8&days=15
           output_path: graph-dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
