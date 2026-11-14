@@ -1,0 +1,165 @@
+
+    <svg
+        width="1200"
+        height="420"
+        viewBox="0 0 1200 420"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+            <rect xmlns="http://www.w3.org/2000/svg" data-testid="card_bg" id="cardBg"
+            x="0" y="0" rx="8" height="100%" stroke="#E4E2E2" fill-opacity="1"
+            width="100%" fill="#1a1b27" stroke-opacity="1" style="stroke:#0000; stroke-width:1;"/>
+
+            <style>
+                body {
+                    font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+                }
+                .header {
+                    font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif;
+                    text-align: center;
+                    color: #70a5fd;
+                    margin-top: 20px;
+                }
+                svg {
+                    font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+                    user-select: none;
+                }
+                
+    .ct-label {
+      fill: #70a5fd;
+      color: #70a5fd;
+      font-size: .75rem;
+      line-height: 1;
+    }
+
+    .ct-grid-background,
+    .ct-line {
+      fill: none;
+    }
+
+    .ct-chart-bar .ct-label,
+    .ct-chart-line .ct-label {
+      display: block;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+    }
+
+    .ct-label.ct-horizontal.ct-start {
+      -webkit-box-align: flex-end;
+      -webkit-align-items: flex-end;
+      -ms-flex-align: flex-end;
+      align-items: flex-end;
+      -webkit-box-pack: flex-start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      text-anchor: start;
+    }
+
+    .ct-label.ct-horizontal.ct-end {
+      -webkit-box-align: flex-start;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: flex-start;
+      align-items: flex-start;
+      -webkit-box-pack: flex-start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      text-anchor: start;
+    }
+
+    .ct-label.ct-vertical.ct-start {
+      -webkit-box-align: flex-end;
+      -webkit-align-items: flex-end;
+      -ms-flex-align: flex-end;
+      align-items: flex-end;
+      -webkit-box-pack: flex-end;
+      -webkit-justify-content: flex-end;
+      -ms-flex-pack: flex-end;
+      justify-content: flex-end;
+      text-align: right;
+      text-anchor: end;
+    }
+
+    .ct-label.ct-vertical.ct-end {
+      -webkit-box-align: flex-end;
+      -webkit-align-items: flex-end;
+      -ms-flex-align: flex-end;
+      align-items: flex-end;
+      -webkit-box-pack: flex-start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      text-anchor: start;
+    }
+
+    .ct-grid {
+      stroke: #70a5fd;
+      stroke-width: 1px;
+      stroke-opacity: 0.3;
+      stroke-dasharray: 2px;
+    }
+
+    .ct-point {
+      stroke-width: 10px;
+      stroke-linecap: round;
+      stroke: #a9b1d6;
+      animation: blink 1s ease-in-out forwards;
+    }
+
+    .ct-line {
+      stroke-width: 4px;
+      stroke-dasharray: 5000;
+      stroke-dashoffset: 5000;
+      stroke: #70a5fd;
+      animation: dash 5s ease-in-out forwards;
+    }
+
+    .ct-area {
+      stroke: none;
+      fill-opacity: 0.1;
+    }
+
+    .ct-series-a .ct-area,
+    .ct-series-a .ct-slice-pie {
+      fill: #70a5fd;
+    }
+
+    .ct-label .ct-horizontal {
+      transform: rotate(-90deg)
+    }
+    
+                
+        @keyframes blink {
+            from {
+                opacity: 0;
+                transform:translateX(-20px); 
+            }
+            to {
+                opacity:1;
+                transform: translateX(0);
+            }
+        }
+    
+                
+        @keyframes dash {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    
+    
+            </style>
+
+            <foreignObject x="0" y="0" width="1200" height="50">
+                <h1 xmlns="http://www.w3.org/1999/xhtml" class="header">
+                    Sukhmanpreet Singh's Contribution Graph
+                </h1>
+            </foreignObject>
+            <svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="1200" height="420" class="ct-chart-line"><g class="ct-grids"><line x1="90" x2="90" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="165.71428571428572" x2="165.71428571428572" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="241.42857142857142" x2="241.42857142857142" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="317.1428571428571" x2="317.1428571428571" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="392.85714285714283" x2="392.85714285714283" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="468.57142857142856" x2="468.57142857142856" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="544.2857142857142" x2="544.2857142857142" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="620" x2="620" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="695.7142857142857" x2="695.7142857142857" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="771.4285714285713" x2="771.4285714285713" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="847.1428571428571" x2="847.1428571428571" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="922.8571428571428" x2="922.8571428571428" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="998.5714285714284" x2="998.5714285714284" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="1074.2857142857142" x2="1074.2857142857142" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line x1="1150" x2="1150" y1="80" y2="350" class="ct-grid ct-horizontal"></line><line y1="350" y2="350" x1="90" x2="1150" class="ct-grid ct-vertical"></line><line y1="316.25" y2="316.25" x1="90" x2="1150" class="ct-grid ct-vertical"></line><line y1="282.5" y2="282.5" x1="90" x2="1150" class="ct-grid ct-vertical"></line><line y1="248.75" y2="248.75" x1="90" x2="1150" class="ct-grid ct-vertical"></line><line y1="215" y2="215" x1="90" x2="1150" class="ct-grid ct-vertical"></line><line y1="181.25" y2="181.25" x1="90" x2="1150" class="ct-grid ct-vertical"></line><line y1="147.5" y2="147.5" x1="90" x2="1150" class="ct-grid ct-vertical"></line><line y1="113.75" y2="113.75" x1="90" x2="1150" class="ct-grid ct-vertical"></line><line y1="80" y2="80" x1="90" x2="1150" class="ct-grid ct-vertical"></line></g><g><g class="ct-series ct-series-a"><path d="M90,350L90,350C115.238,327.5,140.476,282.5,165.714,282.5C190.952,282.5,216.19,350,241.429,350C266.667,350,291.905,350,317.143,350C342.381,350,367.619,333.125,392.857,333.125C418.095,333.125,443.333,350,468.571,350C493.81,350,519.048,311.136,544.286,282.5C569.524,253.864,594.762,164.375,620,164.375C645.238,164.375,670.476,350,695.714,350C720.952,350,746.19,343.672,771.429,333.125C796.667,322.578,821.905,80,847.143,80C872.381,80,897.619,350,922.857,350C948.095,350,973.333,350,998.571,350C1023.81,350,1049.048,350,1074.286,350C1099.524,350,1124.762,350,1150,350L1150,350Z" class="ct-area"></path><path d="M90,350C115.238,327.5,140.476,282.5,165.714,282.5C190.952,282.5,216.19,350,241.429,350C266.667,350,291.905,350,317.143,350C342.381,350,367.619,333.125,392.857,333.125C418.095,333.125,443.333,350,468.571,350C493.81,350,519.048,311.136,544.286,282.5C569.524,253.864,594.762,164.375,620,164.375C645.238,164.375,670.476,350,695.714,350C720.952,350,746.19,343.672,771.429,333.125C796.667,322.578,821.905,80,847.143,80C872.381,80,897.619,350,922.857,350C948.095,350,973.333,350,998.571,350C1023.81,350,1049.048,350,1074.286,350C1099.524,350,1124.762,350,1150,350" class="ct-line"></path><line x1="90" y1="350" x2="90.01" y2="350" class="ct-point" ct:value="0"></line><line x1="165.71428571428572" y1="282.5" x2="165.7242857142857" y2="282.5" class="ct-point" ct:value="4"></line><line x1="241.42857142857142" y1="350" x2="241.4385714285714" y2="350" class="ct-point" ct:value="0"></line><line x1="317.1428571428571" y1="350" x2="317.1528571428571" y2="350" class="ct-point" ct:value="0"></line><line x1="392.85714285714283" y1="333.125" x2="392.8671428571428" y2="333.125" class="ct-point" ct:value="1"></line><line x1="468.57142857142856" y1="350" x2="468.58142857142855" y2="350" class="ct-point" ct:value="0"></line><line x1="544.2857142857142" y1="282.5" x2="544.2957142857142" y2="282.5" class="ct-point" ct:value="4"></line><line x1="620" y1="164.375" x2="620.01" y2="164.375" class="ct-point" ct:value="11"></line><line x1="695.7142857142857" y1="350" x2="695.7242857142857" y2="350" class="ct-point" ct:value="0"></line><line x1="771.4285714285713" y1="333.125" x2="771.4385714285713" y2="333.125" class="ct-point" ct:value="1"></line><line x1="847.1428571428571" y1="80" x2="847.1528571428571" y2="80" class="ct-point" ct:value="16"></line><line x1="922.8571428571428" y1="350" x2="922.8671428571428" y2="350" class="ct-point" ct:value="0"></line><line x1="998.5714285714284" y1="350" x2="998.5814285714284" y2="350" class="ct-point" ct:value="0"></line><line x1="1074.2857142857142" y1="350" x2="1074.2957142857142" y2="350" class="ct-point" ct:value="0"></line><line x1="1150" y1="350" x2="1150.01" y2="350" class="ct-point" ct:value="0"></line></g></g><g class="ct-labels"><text x="85.5" y="370" width="75.71428571428571" height="40" class="ct-label ct-horizontal ct-end">31</text><text x="161.21428571428572" y="370" width="75.71428571428571" height="40" class="ct-label ct-horizontal ct-end">1</text><text x="236.92857142857142" y="370" width="75.7142857142857" height="40" class="ct-label ct-horizontal ct-end">2</text><text x="312.6428571428571" y="370" width="75.71428571428572" height="40" class="ct-label ct-horizontal ct-end">3</text><text x="388.35714285714283" y="370" width="75.71428571428572" height="40" class="ct-label ct-horizontal ct-end">4</text><text x="464.07142857142856" y="370" width="75.71428571428567" height="40" class="ct-label ct-horizontal ct-end">5</text><text x="539.7857142857142" y="370" width="75.71428571428578" height="40" class="ct-label ct-horizontal ct-end">6</text><text x="615.5" y="370" width="75.71428571428567" height="40" class="ct-label ct-horizontal ct-end">7</text><text x="691.2142857142857" y="370" width="75.71428571428567" height="40" class="ct-label ct-horizontal ct-end">8</text><text x="766.9285714285713" y="370" width="75.71428571428578" height="40" class="ct-label ct-horizontal ct-end">9</text><text x="842.6428571428571" y="370" width="75.71428571428567" height="40" class="ct-label ct-horizontal ct-end">10</text><text x="918.3571428571428" y="370" width="75.71428571428567" height="40" class="ct-label ct-horizontal ct-end">11</text><text x="994.0714285714284" y="370" width="75.71428571428578" height="40" class="ct-label ct-horizontal ct-end">12</text><text x="1069.7857142857142" y="370" width="75.71428571428578" height="40" class="ct-label ct-horizontal ct-end">13</text><text x="1145.5" y="370" width="30" height="40" class="ct-label ct-horizontal ct-end">14</text><text y="354.5" x="80" height="33.75" width="60" class="ct-label ct-vertical ct-start">0</text><text y="320.75" x="80" height="33.75" width="60" class="ct-label ct-vertical ct-start">2</text><text y="287" x="80" height="33.75" width="60" class="ct-label ct-vertical ct-start">4</text><text y="253.25" x="80" height="33.75" width="60" class="ct-label ct-vertical ct-start">6</text><text y="219.5" x="80" height="33.75" width="60" class="ct-label ct-vertical ct-start">8</text><text y="185.75" x="80" height="33.75" width="60" class="ct-label ct-vertical ct-start">10</text><text y="152" x="80" height="33.75" width="60" class="ct-label ct-vertical ct-start">12</text><text y="118.25" x="80" height="33.75" width="60" class="ct-label ct-vertical ct-start">14</text><text y="84.5" x="80" height="30" width="60" class="ct-label ct-vertical ct-start">16</text></g><text class="ct-axis-title ct-label" x="620" y="400" dominant-baseline="text-after-edge" text-anchor="middle">Days</text><text class="ct-axis-title ct-label" x="20" y="215" transform="rotate(-90, 20, 215)" dominant-baseline="hanging" text-anchor="middle">Contributions</text></svg>
+    </svg>
